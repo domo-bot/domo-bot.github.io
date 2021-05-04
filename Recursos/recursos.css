@@ -1,0 +1,159 @@
+/* propiedades general */
+address {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(240, 164, 24);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(155, 224, 236);
+    color: white;
+}
+
+aside {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+
+h2 ,p{
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+blockquote {
+    box-shadow: inset 2px 50px 10px 2px #85919736;
+    font-style: italic;
+    color: #110000;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float:right;
+    width: 33.33%;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+li,dt,select {
+    margin-left: 20px;
+    margin-right: 20px; 
+    padding: 5px;
+}
+
+/* propiedades fondos */
+.fondo {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(243, 193, 99);
+}
+
+.fondonav {
+    background-color: rgb(255, 255, 255); ;
+    text-align: center;
+}
+
+.fondocontroversias {
+    background-color: rgb(244, 253, 166);
+}
+
+.fondofundamentos {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(99, 190, 243);
+}
+
+.fondotecnologias {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(117, 226, 117);
+}
+
+.fondoplantas {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(226, 117, 117);
+}
+
+.fondo2, section {
+    background: white;
+}
+
+/* propiedades tablas */
+table.tableizer-table {
+    font-size: 12px;
+    border: 1px solid #CCC; 
+    font-family: Georgia, serif;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+    text-align: center;
+}
+
+.tableizer-table th {
+    background-color: #8b101a; 
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Columnas */
+.divindex {
+    column-count: 2;
+    column-rule: 10px solid  rgb(243, 193, 99);
+}
+
+.divfund {
+    column-count: 2;
+    column-rule: 10px solid  rgb(99, 190, 243);
+}
+
+.divcont {
+    column-count: 2;
+    column-rule: 2px solid  rgb(0, 0, 0);
+}
+
+.divtec {
+    column-count: 3;
+    column-rule: 10px solid rgb(117, 226, 117);
+}
+
+.divtec2 {
+    column-count: 2;
+}
+
+.encuesta {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.divcuesta {
+    column-count: 2;
+}
